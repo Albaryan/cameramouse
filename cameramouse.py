@@ -49,7 +49,7 @@ def button_events(lengths,lmList,btnHold):
 def movement_and_scroll(lengths):
     if lengths[1]<30 and lengths[3]<30 and lengths[5]<30:
         scrll=int(lmList[2][1]-lmList[4][1])
-        mouse.wheel(scrll*5)
+        mouse.wheel(scrll//10)
     elif lengths[1]<30:
         xCoordinate=round(np.interp(lmList[1][0],(roi[0][0],roi[0][1]),(0,sWidth)))
         yCoordinate=round(np.interp(lmList[1][1],(roi[1][0],roi[1][1]),(0,sHeight)))
