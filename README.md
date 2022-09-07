@@ -20,7 +20,7 @@
 
     After running, camera capture will open. There will be a selected rectangular area. 
     That area is the movement area.
-    Preffered hand size is 2/3 of movement area.
+    Preffered hand size is 2/3 of the movement area.
 
     # To Move:              Stick index finger to middle finger and move hand in the ractangular area. 
                             If fingers are seperated, mouse will not move.
