@@ -55,7 +55,7 @@
  
     From detected hand points, necessary points selected. (4,8,10,11,12,15,16,20)
     
-    Some points' distance measured.
+    Distance between some points measured.
     
     Using distances, combinations detected.
     
