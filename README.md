@@ -21,6 +21,7 @@
     After running, camera capture will open. There will be a selected rectangular area. 
     That area is the movement area.
     Preffered hand size is 2/3 of the movement area.
+    Captured image is flipped, using right hand is preffered.
 
     # To Move:              Stick index finger to middle finger and move hand in the ractangular area. 
                             If fingers are seperated, mouse will not move.
@@ -41,3 +42,34 @@
     # To Scroll:            Stick four fingers except thumb. Close or open hand to do scroll.
                             When hand is open, it will scroll up. Close hand to scroll down.
 ![scroll](https://user-images.githubusercontent.com/104989834/188675813-91355116-f9ad-459e-bfce-747767c09772.gif)
+
+## How It Has Done
+
+    Capture image from camera.
+    
+    Image resolution updated according to screen resolution.
+    
+    Movement area selected.
+
+    Using Mediapipe, hand points detected. 
+ 
+    From detected hand points, necessary points selected. (4,8,10,11,12,15,16,20)
+    
+    Some points' distance measured.
+    
+    Using distances, combinations detected.
+    
+    Using combinations, events done.
+
+![image](https://user-images.githubusercontent.com/104989834/188865875-1b7d781e-d64f-418a-8b48-8d07b905dd04.png)
+
+## What I Learnt
+
+    Instead of for loops, vectorize a function and use it throught the numpy array.
+   (lms1 is vectorized | lms2 is for looped)
+![optimization](https://user-images.githubusercontent.com/104989834/188869146-4a1af636-ff03-4b90-b6f8-348ef5e15ff2.png)
+
+     Instead of pyautogui library, use mouse library for faster proccess. (Makes 2-3 fps difference)
+
+
+
