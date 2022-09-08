@@ -63,7 +63,7 @@
 
 ![image](https://user-images.githubusercontent.com/104989834/188865875-1b7d781e-d64f-418a-8b48-8d07b905dd04.png)
 
-## What I Learnt
+## What I Learned
 
     Instead of for loops, vectorize a function and use it throught the numpy array.
    (lms1 is vectorized | lms2 is for looped)
