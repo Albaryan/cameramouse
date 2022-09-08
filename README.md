@@ -43,7 +43,7 @@
                             When hand is open, it will scroll up. Close hand to scroll down.
 ![scroll](https://user-images.githubusercontent.com/104989834/188675813-91355116-f9ad-459e-bfce-747767c09772.gif)
 
-## How It Has Done
+## How It's Made
 
     Capture image from camera.
     
