@@ -69,7 +69,7 @@
    (lms1 is vectorized | lms2 is for looped)
 ![optimization](https://user-images.githubusercontent.com/104989834/188869146-4a1af636-ff03-4b90-b6f8-348ef5e15ff2.png)
 
-     Instead of pyautogui library, use mouse library for faster proccess. (Makes 2-3 fps difference)
+     Instead of pyautogui library, use mouse library for faster proccess. (Makes 2-3 fps differance)
 
 
 
